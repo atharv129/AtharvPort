@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Vibrant Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">MyPortfolio</div>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#slideshow">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="images/wow.jpg" alt="My Photo">
+                </div>
+                <h1>Hi, I'm Atharv Darade</h1>
+                <p>Creative Designer & Developer passionate about building beautiful digital experiences that make an impact.</p>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hi, I'm a First year Electronics and Telecommunication Engineer Studying MIT Academy Of Engineering.</p>
+                    <p>When I'm not coding or designing, you can find me in my room doing something creative, something related to music, videography etc.</p>
+                    <p>I believe in creating work that is not only beautiful but also functional and accessible to everyone. My approach combines technical expertise with creative problem-solving to deliver exceptional results.</p>
+                    <a href="#skills" class="btn">View My Skills</a>
+                </div>
+                <div class="about-image">
+                    <img src="images/pho.jpg" alt="About Me">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills & Achievements</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Expert in HTML, CSS. Beginner in Python</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Video Editor</h3>
+                    <p>Transforming raw footage into compelling stories</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-music"></i>
+                    <h3>Music Production</h3>
+                    <p>Leaning to my creative side with some music to the ears</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Achievements</h3>
+                    <p>No Major Achievements Yet</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slideshow Section -->
+    <section id="slideshow">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="slideshow-container">
+                <div class="slide active">
+                    <img src="images/ph.jpg" alt="Project 1">
+                    <div class="slide-content">
+                        <h3>Remote Control IC</h3>
+                        <p>IR Sensing Project</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/photo.jpg" alt="Project 2">
+                    <div class="slide-content">
+                        <h3>Sports Crowd Funding Website</h3>
+                        <p>Securely avail sports equipments on lease, and get updated for upcoming sports events</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/20.jpg" alt="Project 3">
+                    <div class="slide-content">
+                        <h3>Anti Bike Theft Alarm Sensing</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="dots">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>Have a project in mind or want to discuss potential opportunities? I'd love to hear from you!</p>
+                    <p><i class="fas fa-envelope"></i> atharvdarade710@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 8788970956</p>
+                    <p><i class="fas fa-map-marker-alt"></i> MIT Alandi, Pune</p>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" action="https://formspree.io/f/xeoavaob" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <h3>MyPortfolio</h3>
+            <p>Creating digital experiences that inspire and delight.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+            </div>
+            <p>&copy; 2023 MyPortfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Slideshow functionality
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("slide");
+            let dots = document.getElementsByClassName("dot");
+            
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            
+            for (i = 0; i < slides.length; i++) {
+                slides[i].classList.remove("active");
+            }
+            
+            for (i = 0; i < dots.length; i++) {
+                dots[i].classList.remove("active");
+            }
+            
+            slides[slideIndex-1].classList.add("active");
+            dots[slideIndex-1].classList.add("active");
+        }
+        
+        // Auto-advance slides every 5 seconds
+        setInterval(() => {
+            slideIndex++;
+            if (slideIndex > 3) slideIndex = 1;
+            showSlides(slideIndex);
+        }, 5000);
+        
+        // Form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            fetch(this.action, {
+                method: this.method,
+                body: new FormData(this),
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                if (response.ok) {
+                    alert('Thank you for your message! I will get back to you soon.');
+                    this.reset();
+                } else {
+                    throw new Error('Network response was not ok');
+                }
+            }).catch(error => {
+                alert('There was a problem sending your message. Please try again later.');
+            });
+        });
+        
+        // Smooth scrolling for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
