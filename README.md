@@ -1,4 +1,4 @@
-![image alt](https://github.com/user-attachments/assets/b80566d7-223d-4a22-8e4c-5a6607613ecf)
+![image alt](https://github.com/atharv129/AtharvPort/blob/main/20.jpg?raw=true)
 ![image alt](https://github.com/atharv129/AtharvPort/blob/main/ph.jpg?raw=true)
 ![image alt](https://github.com/atharv129/AtharvPort/blob/main/pho.jpg?raw=true)
 ![image alt](https://github.com/atharv129/AtharvPort/blob/main/photo.jpg?raw=true)
